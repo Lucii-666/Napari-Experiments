@@ -1,0 +1,21 @@
+# Napari Experiment Requirements
+# Core packages (already installed)
+napari[all]>=0.6.0
+numpy>=1.20.0
+scipy>=1.7.0
+scikit-image>=0.19.0
+
+# Optional but recommended for advanced experiments
+matplotlib>=3.5.0
+pandas>=1.3.0
+tifffile>=2021.0.0
+imageio>=2.9.0
+
+# For working with specific file formats
+pillow>=8.0.0
+
+# For 3D visualization enhancements
+vispy>=0.9.0
+
+# For interactive widgets (if needed)
+magicgui>=0.4.0
